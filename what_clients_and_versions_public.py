@@ -4,7 +4,7 @@ url = 'https://api.mist.com/api/v1/sites/<your Site Here>/stats/clients'
 
 headers = {
     'Content-Type': 'application/json',
-    'Authorization': '<your Token Here'
+    'Authorization': 'Token <your token>'
 }
 
 results = requests.get(url,headers=headers)
